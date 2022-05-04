@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Printf("Weather package version: %s\n", weather.GetVersion())
 	makePrediction(51.509865, -0.118092, "London")
 }
 
